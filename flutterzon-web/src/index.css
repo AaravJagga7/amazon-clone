@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'AmazonEmber';
+  src: url('/assets/fonts/amazon_ember/AmazonEmber_Rg.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AmazonEmber';
+  src: url('/assets/fonts/amazon_ember/AmazonEmber_Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AmazonEmber';
+  src: url('/assets/fonts/amazon_ember/AmazonEmber_Bd.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'AmazonEmber', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #0F1111;
+  background-color: #eaeded;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+

@@ -1,0 +1,12 @@
+{
+  "name": "amazon-clone",
+  "version": "1.0.0",
+  "description": "Full-Featured Amazon Clone (Website & Mobile)",
+  "scripts": {
+    "dev": "npm --prefix flutterzon-web run dev",
+    "build": "npm --prefix flutterzon-web run build",
+    "preview": "npm --prefix flutterzon-web run preview"
+  },
+  "author": "Aarav Jagga",
+  "license": "MIT"
+}
